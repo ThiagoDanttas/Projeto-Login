@@ -4,30 +4,25 @@ body{
 }
 
 #container{
-    margin: 0 auto;
+    margin: 0px auto;
+    margin-top: 100px;
     width: 950px;
-    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
 }
 
 #caixa1{
-    position: relative;
     width: 450px;
     height: 420px;
-    float: right;
-    margin-right: 10px;
     background:#253237;
     border-radius:30px;
     box-shadow: 15px 2px 2px #111;
 }
 
 #caixa2{
-    position: relative;
     width: 450px;
     height: 420px;
-    float: left;
-    width: 450px;
-    height: 420px;
-    margin-right: 10px;
     background:#253237;
     border-radius:30px;
     box-shadow: 15px 2px 2px #111;
@@ -59,27 +54,8 @@ input#btn:hover{
 
 #conteudo-caixa h1{
     text-align: center;
-    margin-top: 70px;
     color: #EB8258;
-}
-
-#rodape{
-    clear: both;
-}
-
-#frase{
-    margin: 20px auto;
-    padding-bottom: 5px;
-    text-align: center;
-    color: #fff;
-    letter-spacing: 0.1em;
-    font-size: 0.8em;
-    color: #FAF3DD;
-}
-
-.tomato{
-    color: #EB8258;
-    font-size: 1em;
+    margin-top: 50px;
 }
 
 button#facebook{
@@ -92,16 +68,13 @@ button#facebook{
 }
 
 button#facebook i{
-    position: relative;
-    right: 57px;
+    float: left;
     color: #fff;
 }
 
 button#facebook a{
     color: #fff;
 }
-
-
 
 button#gmail{
     width: 70%;
@@ -114,8 +87,7 @@ button#gmail{
 }
 
 button#gmail i{
-    position: relative;
-    right: 60px;
+    float: left;
     color: #fff;
 }
 
